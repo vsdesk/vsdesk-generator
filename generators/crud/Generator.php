@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace sintret\gii\generators\crud;
+namespace vsdesk\gii\generators\crud;
 
 use Yii;
 use yii\db\ActiveRecord;
@@ -46,7 +46,7 @@ class Generator extends \yii\gii\Generator {
      * @inheritdoc
      */
     public function getName() {
-        return 'Sintret CRUD Generator';
+        return 'vsDesk CRUD Generator';
     }
 
     /**
