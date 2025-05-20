@@ -1,5 +1,5 @@
 {
-    "name": "sintret/yii2-gii-adminlte",
+    "name": "vsdesk/vsdesk-generator",
     "description": "Yii2 Generator extension for Gii plugin with adminlte and base on dynagrid. upload excel to system to with log upload",
     "keywords": [
         "yii2",
@@ -8,22 +8,22 @@
         "personalize",
         "dynagrid"
     ],
-    "homepage": "https://github.com/sintret/yii2-gii-adminlte",
+    "homepage": "https://github.com/vsdesk/vsdesk-generator",
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/sintret/yii2-gii-adminlte/issues",
-        "source": "https://github.com/sintret/yii2-gii-adminlte"
+        "issues": "https://github.com/vsdesk/vsdesk-generator/issues",
+        "source": "https://github.com/vsdesk/vsdesk-generator"
     },
     "authors": [
         {
-            "name": "Andy Fitria",
-            "homepage": "http://sintret.com"
+            "name": "Alexandr Ivanov",
+            "homepage": "http://vsdesk.ru"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "phpoffice/phpexcel": "*",
+        "phpoffice/phpspreadsheet": "*",
         "yiisoft/yii2-imagine": "*",
         "kartik-v/yii2-widgets": "*",
         "kartik-v/yii2-grid": "*",
@@ -35,13 +35,11 @@
         "kartik-v/yii2-tabs-x": "*",
         "kartik-v/bootstrap-fileinput": "*",
         "kartik-v/yii2-checkbox-x": "*",
-        "sintret/yii2-chat-adminlte": "*",
-        "sintret/yii2-todolist": "*"
     },
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "sintret\\gii\\": ""
+            "vsdesk\\gii\\": ""
         }
     }
 }
