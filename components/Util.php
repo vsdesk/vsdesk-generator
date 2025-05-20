@@ -3,10 +3,10 @@
 /**
  * Description of Util
  *
- * @author Andy Fitria <sintret@gmail.com>
+ * @author Alexandr Ivanov <ivanov@vsdesk.ru>
  */
 
-namespace sintret\gii\components;
+namespace vsdesk\gii\components;
 
 use yii\base\Component;
 
@@ -36,7 +36,7 @@ class Util extends Component {
     }
 
     public static function templateExcel() {
-        return ("@vendor/sintret/yii2-gii-adminlte/templates/new.xls");
+        return ("@vendor/vsdesk/vsdesk-generator/templates/new.xls");
     }
 
     /**
