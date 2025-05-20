@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (C) 2014 Sintret <sintret@gmail.com>
+ * Copyright (C) 2025 Alexandr Ivanov <ivanov@vsdesk.ru>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace sintret\gii\components;
+namespace vsdesk\gii\components;
 
 use Yii;
 use yii\base\Behavior;
@@ -26,13 +26,13 @@ use yii\base\Model;
 use yii\db\ActiveRecord;
 use yii\helpers\FileHelper;
 use yii\web\UploadedFile;
-use sintret\gii\components\SintretImagine;
+use vsdesk\gii\components\SintretImagine;
 
 
 /**
  * Description of CropBehaviour
  *
- * @author Andy Fitria <sintret@gmail.com>
+ * @author Alexandr Ivanov <ivanov@vsdesk.ru>
  */
 class CropBehavior extends Behavior {
 
