@@ -3,9 +3,9 @@
 namespace app\controllers;
 
 use Yii;
-use sintret\gii\models\LogUpload;
-use sintret\gii\models\LogUploadSearch;
-use sintret\gii\components\Util;
+use vsdesk\gii\models\LogUpload;
+use vsdesk\gii\models\LogUploadSearch;
+use vsdesk\gii\components\Util;
 
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
