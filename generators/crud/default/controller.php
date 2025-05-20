@@ -54,8 +54,8 @@ use <?= ltrim($generator->baseControllerClass, '\\') ?>;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
-use sintret\gii\models\LogUpload;
-use sintret\gii\components\Util;
+use vsdesk\gii\models\LogUpload;
+use vsdesk\gii\components\Util;
 
 
 /**
@@ -286,7 +286,7 @@ if (count($pks) === 1) {
                 $log = 'log_<?= $modelClass ?>'. Yii::$app->user->id;
                 Yii::$app->session->setFlash('success', 'Well done! successfully to Parsing data, see log on log upload menu! Please Waiting for processing indicator if available...  ');
                 Yii::$app->session->set($log, $model->id);
-                $notification = new \sintret\gii\models\Notification;
+                $notification = new \vsdesk\gii\models\Notification;
                 $notification->title = 'parsing <?= $modelClass ?>';
                 $notification->message = Yii::$app->user->identity->username . ' parsing <?= $modelClass ?> ';
                 $notification->params = \yii\helpers\Json::encode(['model' => '<?= $modelClass ?>', 'id' => $model->id]);
