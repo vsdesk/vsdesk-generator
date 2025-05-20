@@ -1,6 +1,6 @@
 <?php
 
-namespace sintret\gii\models;
+namespace vsdesk\gii\models;
 
 use Yii;
 
