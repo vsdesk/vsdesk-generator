@@ -3,7 +3,7 @@ yii2 framework generator code with layout template adminlte and base on kartik d
 
 add via composer :
 
-<pre>"vsdesk/vsdesk-generator": "dev-master"</pre>
+<pre>"vsdesk/vsdesk-generator": "dev-main"</pre>
 
 setting in your config like these following :
 
