@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace sintret\gii\generators\model;
+namespace vsdesk\gii\generators\model;
 
 use Yii;
 use yii\db\ActiveRecord;
