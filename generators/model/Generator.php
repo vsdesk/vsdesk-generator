@@ -37,7 +37,7 @@ class Generator extends \yii\gii\Generator {
      * @inheritdoc
      */
     public function getName() {
-        return 'Sintret Model Generator';
+        return 'vsDesk Model Generator';
     }
 
     /**
