@@ -5,7 +5,7 @@
  *
  * @author Andy Fitria <sintret@gmail.com>
  */
-namespace sintret\gii\components;
+namespace vsdesk\gii\components;
 
 use yii\imagine\Image;
 
