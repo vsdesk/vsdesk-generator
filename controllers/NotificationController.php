@@ -1,15 +1,15 @@
 <?php
 
-namespace sintret\gii\controllers;
+namespace vsdesk\gii\controllers;
 
 use Yii;
-use sintret\gii\models\Notification;
-use sintret\gii\models\NotificationSearch;
+use vsdesk\gii\models\Notification;
+use vsdesk\gii\models\NotificationSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
-use sintret\gii\models\LogUpload;
+use vsdesk\gii\models\LogUpload;
 
 /**
  * NotificationController implements the CRUD actions for Notification model.
