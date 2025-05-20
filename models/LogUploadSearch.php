@@ -1,11 +1,11 @@
 <?php
 
-namespace sintret\gii\models;
+namespace vsdesk\gii\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use sintret\gii\models\LogUpload;
+use vsdesk\gii\models\LogUpload;
 
 /**
  * LogUploadSearch represents the model behind the search form about `app\models\LogUpload`.
